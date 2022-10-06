@@ -11,12 +11,12 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #1e2326;
+    background: #04f6fa;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 88;
 }
 .contenedor-header header{
     max-width: 1100px;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: #0e0e0e;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -45,10 +45,10 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #f020ae;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color: #0b0bfa;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -57,17 +57,18 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    /* cambie de 0,5 a 6 tambien en lo siguiente 7*/
+    background: linear-gradient(to top, rgba(30,35,38,.6), rgba(30,35,38,.7)),
+    url(img/estadio.png);
     background-size: cover;
-    height: 100vh;
-    color: #fff;
+    height: 99vh;
+    color: rgb(25, 22, 244);
     display: flex;
     align-items: center;
 }
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #1e2326;
+    background-color: #101112;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -75,11 +76,11 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 5px solid #0f04ed;
     display: block;
-    width: 80%;
+    width: 50%;
     margin: auto;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 .inicio .contenido-banner h1{
     margin-top: 40px;
@@ -91,10 +92,10 @@ html{
     font-weight: normal;
 }
 .inicio .contenido-banner .redes a{
-    color: #fff;
+    color: rgb(6, 26, 250);
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid rgb(9, 237, 9);
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -104,10 +105,10 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #17f1b7;
 }
 .sobremi{
-    background-color: #1e2326;
+    background-color: #2a35fc;
     color: #fff;
     padding: 50px 20px;
 }
@@ -151,11 +152,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #101212;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #25049a;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -167,7 +168,7 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color: #1504ae;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -176,7 +177,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #1bf8fc;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -185,7 +186,7 @@ html{
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid rgb(250, 23, 186);
     width: fit-content;
     display: block;
     margin: 20px auto;
@@ -201,7 +202,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #15fea9;
     z-index: -1;
     transition: 1s;
 }
@@ -210,7 +211,7 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
+    background-color: #2f09eb;
     color: #fff;
     padding: 50px 20px;
 }
@@ -245,12 +246,12 @@ html{
 .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
-    background-color: #131517;
+    background-color: #e809ac;
     position: relative;
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: #17f5fd;
     position: absolute;
     top: 0;
     left: 0;
@@ -260,7 +261,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #17f5fd;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -360,7 +361,7 @@ html{
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
+    background-color: #072aef;
     color: #fff;
     padding: 50px 20px;
 }
@@ -389,15 +390,15 @@ html{
     margin-bottom: 25px;
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid #252A2E;
+    border-right: 2px solid #f51b1b;
 }
 .curriculum .fila .derecha{
-    border-left: 2px solid #252A2E;
+    border-left: 2px solid #f51b1b;
 }
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252A2E;
+    background-color: #0805ce;
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -405,30 +406,30 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #faf6f6;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #ecf2f1;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #f51b1b;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #f51b1b;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #f51b1b;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -440,14 +441,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #f51b1b;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #f51b1b;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -459,14 +460,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #f51b1b;
     float: left;
     position: relative;
     bottom: 4px;
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
+    background-color: #2008f6;
     color: #fff;
     padding: 50px 20px;
 }
@@ -502,7 +503,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgba(17, 244, 244, 0.8), rgba(17, 244, 244, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -524,7 +525,7 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
+    background-color: #0e38f5;
     color: #fff;
     padding: 50px 0;
 }
@@ -552,7 +553,7 @@ html{
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #252A2E;
+    background-color: #040ecc;
     color: #fff;
     font-size: 18px;
 }
