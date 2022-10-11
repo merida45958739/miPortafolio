@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #04f6fa;
+    background: #040d8a;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #0e0e0e;
+    color: #fdfbfb;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -108,7 +108,7 @@ html{
     background-color: #17f1b7;
 }
 .sobremi{
-    background-color: #2a35fc;
+    background-color: #040857;
     color: #fff;
     padding: 50px 20px;
 }
@@ -129,7 +129,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #eff8f8;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -152,7 +152,7 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #101212;
+    color: #eff8f8;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
@@ -186,7 +186,7 @@ html{
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid rgb(250, 23, 186);
+    border: 2px solid rgb(12, 11, 12);
     width: fit-content;
     display: block;
     margin: 20px auto;
@@ -211,7 +211,7 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #2f09eb;
+    background-color: #040857;
     color: #fff;
     padding: 50px 20px;
 }
@@ -246,7 +246,7 @@ html{
 .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
-    background-color: #e809ac;
+    background-color: #1606a7;
     position: relative;
     margin-bottom: 30px;
 }
@@ -361,7 +361,7 @@ html{
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #072aef;
+    background-color: #040857;
     color: #fff;
     padding: 50px 20px;
 }
@@ -467,7 +467,7 @@ html{
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #2008f6;
+    background-color: #040857;
     color: #fff;
     padding: 50px 20px;
 }
@@ -525,7 +525,7 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #0e38f5;
+    background-color: #040857;
     color: #fff;
     padding: 50px 0;
 }
