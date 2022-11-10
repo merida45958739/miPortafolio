@@ -67,9 +67,9 @@ html{
     align-items: center;
 }
 .inicio .contenido-banner{
-    padding: 20px;
+    padding: 30px;
     background-color: #101112;
-    max-width: 350px;
+    max-width: 400px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
